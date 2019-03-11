@@ -8,11 +8,6 @@ class TodoForm extends Component {
   componentDidMount() {
     this.ref.current.focus();
   }
-  componentDidUpdate() {
-    if (this.state.text === "") {
-      this.ref.current.focus();
-    }
-  }
   onChangeText = e => {
     this.setState({
       text: e.target.value

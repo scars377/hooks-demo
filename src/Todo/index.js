@@ -7,7 +7,7 @@ class Todo extends Component {
     items: []
   };
   addItem = item => {
-    this.setStata({
+    this.setState({
       items: [...this.state.items, item]
     });
   };
