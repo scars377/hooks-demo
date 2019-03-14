@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "React",
+    "price": 1600
+  },
+  {
+    "id": 2,
+    "name": "Vue",
+    "price": 3200
+  },
+  {
+    "id": 3,
+    "name": "Hooks",
+    "price": 4800
+  },
+  {
+    "id": 4,
+    "name": "Redux",
+    "price": 6400
+  }
+]

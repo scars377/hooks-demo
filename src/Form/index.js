@@ -1,11 +1,11 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 class Form extends Component {
   state = {
-    name: "",
-    email: "",
-    tel: "",
-    address: ""
+    name: '',
+    email: '',
+    tel: '',
+    address: '',
   };
   onChangeName = e => {
     this.setState({ name: e.target.value });
@@ -41,6 +41,7 @@ class Form extends Component {
         <label>Address</label>
         <input value={address} onChange={this.onChangeAddress} />
         <br />
+        <button type="submit">Submit</button>
       </form>
     );
   }
